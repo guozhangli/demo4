@@ -22,6 +22,7 @@ public class UserController {
         return users;
     }
 
+
     @RequestMapping("/getUser2")
     public String getUser2(Model model){
         List<User2> user2List=userService.findAllUser2();
